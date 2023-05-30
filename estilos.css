@@ -1,0 +1,34 @@
+body {
+    background-color: #e0abb3;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#u{
+    list-style: none;
+}
+
+#u li{
+    display:inline;
+    margin: 2em;
+    
+    }
+
+    #f{display: flex;
+        justify-content: space-around;
+    }
+
+#fyo{
+
+ font-size: 1.5em;
+}
+
+.gigi{
+    font-size: 1.3em;
+    text-decoration: none;
+
+    
+    
+ 
+}
