@@ -8,24 +8,27 @@
     <title>Adidas</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
-<body>
-<header>
-    <h1>ZAPATILLAS PARA MACHOS</h1>
-    <br>
-    <div id="f">
-        <div><nav>
-            <ul id="u">
-                <li><a href="" class="gigi">Ver todo el calzado</a></li>
-                <li><a href="" class="gigi">Running</a></li>
-                <li><a href="" class="gigi">Botines</a></li>
-                <li><a href="" class="gigi">Originals</a></li>
-            </ul>
-        </nav></div>
-        <div id="fyo"><a href="">Filtrar y ordenar</a></div>
 
-    </div>
-</header>
-    <!-- <main class="container"> 
+<body>
+    <header>
+        <h1 id="zpm">ZAPATILLAS PARA MACHOS</h1>
+
+        <div id="f">
+            <div>
+                <nav>
+                    <ul id="u">
+                        <li><a href="" class="gigi">Ver todo el calzado</a></li>
+                        <li><a href="" class="gigi">Running</a></li>
+                        <li><a href="" class="gigi">Botines</a></li>
+                        <li><a href="" class="gigi">Originals</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="fyo"><a href="" id="fy">Filtrar y ordenar</a></div>
+
+        </div>
+    </header>
+    <main class="container">
         <div class="box">
             <img src="https://picsum.photos/200" alt="">
             <h3>Título 1</h3>
@@ -50,7 +53,75 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <a href="#">Enlace 4</a>
         </div>
-    </main>-->
+    </main>
 </body>
 
 </html>
+
+<!-- 
+<div class="producto">
+
+    <div class="img-container">
+        img1
+        img2 class="img-hover"
+
+    </div>
+    <div class="precio">
+        <p>$4999</p>
+    </div>
+    <div>
+        <h2>titulo</h2>
+     <h3>subtitulo</h3>
+        <h3>descripcion</h3>
+    </div>
+
+</div>
+
+
+<style>
+    main{
+        display-flex
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+.producto{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container{
+    position: relative;
+}
+
+.produto img-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.producto:hover .img-hover{
+    opacity: 1;
+}
+.producto .precio{
+    position: relative;
+    bottom: 120px;
+    background-color: white;
+    left: 10px;
+    transition: all 0.4s ease;
+}
+
+.producto:hover .precio{
+background-color: black;
+color: white;
+bottom: 45px;
+}
+
+.producto .precio p{
+    margin: 0;
+}
+
+</style>-->
