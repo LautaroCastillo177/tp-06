@@ -30,27 +30,96 @@ body {
     margin-bottom: 30px;
     margin-left: 360px;
     padding-top: 20px;
-    color: #2f4129;
+    color: #57744e;
     font-weight: 900;
     font-size: 3em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 header {
-    background-color: #a3b18a;
+    background-color: #000000;
     padding: 1px;
 }
 
 .gigi {
-    color: #261088;
+    color: #ffffff;
     font-weight: 700;
 }
 
 #fy{
     text-decoration: none;
     font-size: 1.5em;
-    color: #261088;
+    color: #ffffff;
     font-weight: 700;
     margin-right: 10em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1900px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.producto{
+display: flex;
+flex-direction: column;
+margin-bottom: 50px;
+background-color: #000000;
+padding: 10px;
+margin: 40px;
+}
+
+.img-container{
+position: relative;
+width: 100%;
+}
+
+.producto .img-hover{
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+}
+
+.producto:hover .img-hover{
+opacity: 1;
+}
+.producto .precio{
+position: relative;
+bottom: 10px;
+background-color: white;
+left: 0px;
+transition: all 0.4s ease;
+}
+
+.producto:hover .precio{
+background-color: black;
+color: white;
+bottom: 45px;
+}
+
+.producto .precio p{
+margin: 0;
+}
+
+img{
+    width: 240px;
+}
+
+h2{
+    font-size: 1.2em;
+    color: #67c002;
+    margin: 0;
+}
+
+p{
+margin: 0;
+}
+
+h3{
+    margin: 0;
 }
